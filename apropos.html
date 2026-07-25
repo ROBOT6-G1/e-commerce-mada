@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À Propos | Apex Vision</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased">
+
+  <!-- HEADER -->
+  <header class="fixed top-0 left-0 right-0 z-50 glass-header border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-indigo-600 flex items-center justify-center font-black text-xl shadow-lg shadow-cyan-500/20">
+          A
+        </div>
+        <span class="font-bold text-xl tracking-tight text-white">Apex<span class="text-cyan-400">Vision</span></span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="index.html" class="hover:text-white transition">Accueil</a>
+        <a href="apropos.html" class="text-cyan-400 hover:text-white transition">À Propos</a>
+        <a href="services.html" class="hover:text-white transition">Services</a>
+        <a href="realisations.html" class="hover:text-white transition">Réalisations</a>
+        <a href="faq.html" class="hover:text-white transition">FAQ</a>
+        <a href="blog.html" class="hover:text-white transition">Blog</a>
+        <a href="contact.html" class="hover:text-white transition">Contact</a>
+      </nav>
+      <a href="devis.html" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 px-5 py-2.5 rounded-xl font-bold text-sm transition-all shadow-lg shadow-cyan-500/25">
+        Demander un Devis
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION PAGE -->
+  <section class="pt-36 pb-16 bg-slate-900/40 border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 text-center space-y-4">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-white">Notre Histoire & Notre Vision</h1>
+      <p class="text-slate-400 max-w-2xl mx-auto text-lg">
+        Découvrez qui nous sommes, nos valeurs fondamentales et l'équipe passionnée derrière les projets de nos clients.
+      </p>
+    </div>
+  </section>
+
+  <!-- 2. À PROPOS DETAILS -->
+  <section class="py-20">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&q=80" class="rounded-3xl border border-slate-800 shadow-2xl" alt="À propos ApexVision">
+      </div>
+      <div class="space-y-6">
+        <span class="text-cyan-400 font-bold uppercase text-sm tracking-widest">Qui sommes-nous ?</span>
+        <h2 class="text-3xl font-extrabold text-white">Créateurs de solutions stratégiques & technologiques</h2>
+        <p class="text-slate-400 leading-relaxed">
+          Fondée en 2013 à Antananarivo, Apex Vision est devenue un acteur incontournable du conseil d'entreprise et de l'ingénierie digitale. Notre mission est d'apporter de la clarté et de la performance dans chaque projet entreprise.
+        </p>
+        <div class="grid grid-cols-2 gap-4 pt-4">
+          <div class="p-4 rounded-xl bg-slate-900 border border-slate-800">
+            <h3 class="text-2xl font-bold text-cyan-400">100%</h3>
+            <p class="text-slate-400 text-sm">Engagement Qualité</p>
+          </div>
+          <div class="p-4 rounded-xl bg-slate-900 border border-slate-800">
+            <h3 class="text-2xl font-bold text-indigo-400">+50</h3>
+            <p class="text-slate-400 text-sm">Experts Métiers</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. ÉQUIPE SECTION -->
+  <section class="py-20 bg-slate-900/50 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+        <h2 class="text-cyan-400 font-bold uppercase text-sm tracking-widest">Notre Équipe</h2>
+        <h3 class="text-3xl font-extrabold text-white">Les visages de notre succès</h3>
+      </div>
+      <div class="grid md:grid-cols-4 gap-8" id="team-list">
+        <!-- Dynamic Team Members -->
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-slate-900 border-t border-slate-800 py-8 text-center text-slate-500 text-xs">
+    © 2025 ApexVision Madagascar. Tous droits réservés.
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
