@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apex Vision | Solution Entreprise & Innovation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased">
+
+  <!-- HEADER -->
+  <header class="fixed top-0 left-0 right-0 z-50 glass-header border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-indigo-600 flex items-center justify-center font-black text-xl shadow-lg shadow-cyan-500/20">
+          A
+        </div>
+        <span class="font-bold text-xl tracking-tight text-white">Apex<span class="text-cyan-400">Vision</span></span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="index.html" class="text-cyan-400 hover:text-white transition">Accueil</a>
+        <a href="apropos.html" class="hover:text-white transition">À Propos</a>
+        <a href="services.html" class="hover:text-white transition">Services</a>
+        <a href="realisations.html" class="hover:text-white transition">Réalisations</a>
+        <a href="faq.html" class="hover:text-white transition">FAQ</a>
+        <a href="blog.html" class="hover:text-white transition">Blog</a>
+        <a href="contact.html" class="hover:text-white transition">Contact</a>
+      </nav>
+      <div class="flex items-center gap-4">
+        <a href="devis.html" class="hidden sm:inline-flex bg-cyan-500 hover:bg-cyan-400 text-slate-950 px-5 py-2.5 rounded-xl font-bold text-sm transition-all shadow-lg shadow-cyan-500/25 items-center gap-2">
+          <i class="fa-solid fa-paper-plane"></i> Demander un Devis
+        </a>
+        <a href="admin.html" class="p-2.5 rounded-xl border border-slate-700 hover:bg-slate-800 text-slate-300 text-sm" title="Espace Admin">
+          <i class="fa-solid fa-lock"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 1. HERO SECTION -->
+  <section class="relative pt-36 pb-20 md:pt-48 md:pb-32 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div class="space-y-6">
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-300 text-xs font-semibold tracking-wide uppercase">
+          <span class="w-2 h-2 rounded-full bg-cyan-400 animate-ping"></span> Leader en Transformation Digitale & Conseil
+        </div>
+        <h1 class="text-4xl sm:text-6xl font-extrabold text-white leading-tight tracking-tight">
+          Propulsez votre entreprise vers le <span class="gradient-text">Futur Digital</span>
+        </h1>
+        <p class="text-slate-400 text-lg leading-relaxed">
+          Nous accompagnons les PME et grandes entreprises dans le développement stratégique, l'innovation technologique et l'optimisation globale de leurs performances.
+        </p>
+        <div class="flex flex-wrap items-center gap-4 pt-2">
+          <a href="services.html" class="bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-white font-bold px-8 py-4 rounded-xl shadow-xl shadow-cyan-500/20 transition-all flex items-center gap-3">
+            Explorer nos Services <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="contact.html" class="bg-slate-900 border border-slate-700 hover:border-slate-500 text-slate-200 font-semibold px-8 py-4 rounded-xl transition-all">
+            Nous contacter
+          </a>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-indigo-600 rounded-3xl blur-2xl opacity-30"></div>
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80" alt="Enterprise Tech" class="relative rounded-3xl border border-slate-800 shadow-2xl object-cover w-full h-[420px]">
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS QUICK BAR -->
+  <section class="border-y border-slate-800 bg-slate-900/50 py-10">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <div>
+        <p class="text-3xl md:text-4xl font-extrabold text-cyan-400">+250</p>
+        <p class="text-slate-400 text-sm mt-1">Projets concrétisés</p>
+      </div>
+      <div>
+        <p class="text-3xl md:text-4xl font-extrabold text-indigo-400">98%</p>
+        <p class="text-slate-400 text-sm mt-1">Satisfaction Client</p>
+      </div>
+      <div>
+        <p class="text-3xl md:text-4xl font-extrabold text-emerald-400">12</p>
+        <p class="text-slate-400 text-sm mt-1">Années d'Expérience</p>
+      </div>
+      <div>
+        <p class="text-3xl md:text-4xl font-extrabold text-amber-400">24/7</p>
+        <p class="text-slate-400 text-sm mt-1">Support Technique</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. SERVICES PREVIEW -->
+  <section class="py-24 bg-slate-950">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <h2 class="text-cyan-400 font-bold uppercase text-sm tracking-widest">Nos Expertises</h2>
+        <h3 class="text-3xl md:text-4xl font-extrabold text-white">Des solutions sur-mesure pour votre succès</h3>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8" id="home-services-list">
+        <!-- Injected via JS -->
+      </div>
+      <div class="text-center mt-12">
+        <a href="services.html" class="inline-flex items-center gap-2 text-cyan-400 font-bold hover:text-cyan-300 transition">
+          Voir tous nos services <i class="fa-solid fa-chevron-right text-xs"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. POURQUOI NOUS CHOISIR -->
+  <section class="py-24 bg-slate-900/60 border-y border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+      <div class="space-y-6">
+        <h2 class="text-cyan-400 font-bold uppercase text-sm tracking-widest">Pourquoi Apex Vision</h2>
+        <h3 class="text-3xl md:text-4xl font-extrabold text-white leading-tight">Un partenariat basé sur la performance et l'innovation</h3>
+        <p class="text-slate-400 leading-relaxed">
+          Nous ne proposons pas de simples prestations, mais un véritable accompagnement stratégique axé sur vos résultats financiers et votre scalabilité.
+        </p>
+        <div class="space-y-4 pt-2">
+          <div class="flex gap-4 items-start">
+            <div class="w-10 h-10 rounded-lg bg-cyan-500/20 text-cyan-400 flex items-center justify-center shrink-0 font-bold">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-white">Sécurité & Normes</h4>
+              <p class="text-slate-400 text-sm">Protection maximale de vos données confidentielles et respect des réglementations.</p>
+            </div>
+          </div>
+          <div class="flex gap-4 items-start">
+            <div class="w-10 h-10 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center shrink-0 font-bold">
+              <i class="fa-solid fa-chart-line"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-white">ROI Garanti</h4>
+              <p class="text-slate-400 text-sm">Optimisation continue des indicateurs clés pour garantir un retour sur investissement mesurable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80" class="rounded-2xl border border-slate-800 h-64 w-full object-cover" alt="Équipe">
+        <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=600&q=80" class="rounded-2xl border border-slate-800 h-64 w-full object-cover mt-8" alt="Stratégie">
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. TÉMOIGNAGES PREVIEW -->
+  <section class="py-24 bg-slate-950">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-cyan-400 font-bold uppercase text-sm tracking-widest">Témoignages</h2>
+        <h3 class="text-3xl font-extrabold text-white mt-2">Ce que disent nos partenaires</h3>
+      </div>
+      <div class="grid md:grid-cols-3 gap-8" id="home-testimonials-list">
+        <!-- Injected via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-slate-900 border-t border-slate-800 pt-16 pb-12 text-slate-400">
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-4 gap-12 pb-12 border-b border-slate-800">
+      <div class="space-y-4">
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 rounded-lg bg-cyan-500 flex items-center justify-center font-bold text-slate-950">A</div>
+          <span class="font-bold text-lg text-white">ApexVision</span>
+        </div>
+        <p class="text-sm leading-relaxed">
+          Votre partenaire de confiance pour la transformation numérique, la stratégie d'entreprise et les conseils à haute valeur ajoutée.
+        </p>
+      </div>
+      <div>
+        <h4 class="text-white font-bold mb-4">Liens Rapides</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="apropos.html" class="hover:text-cyan-400">À Propos</a></li>
+          <li><a href="services.html" class="hover:text-cyan-400">Services</a></li>
+          <li><a href="realisations.html" class="hover:text-cyan-400">Portfolio</a></li>
+          <li><a href="blog.html" class="hover:text-cyan-400">Blog</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="text-white font-bold mb-4">Contact</h4>
+        <p class="text-sm mb-2"><i class="fa-solid fa-location-dot text-cyan-400 mr-2"></i> Antananarivo, Madagascar</p>
+        <p class="text-sm mb-2"><i class="fa-solid fa-phone text-cyan-400 mr-2"></i> +261 34 00 000 00</p>
+        <p class="text-sm"><i class="fa-solid fa-envelope text-cyan-400 mr-2"></i> contact@apexvision.mg</p>
+      </div>
+      <div>
+        <h4 class="text-white font-bold mb-4">Espace Client</h4>
+        <a href="admin.html" class="inline-block bg-slate-800 hover:bg-slate-700 text-slate-200 px-4 py-2.5 rounded-lg text-sm border border-slate-700">
+          <i class="fa-solid fa-user-gear mr-2"></i> Accès Administration
+        </a>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-6 pt-6 text-center text-xs text-slate-500">
+      © 2025 ApexVision Madagascar. Tous droits réservés. Propulsé par DEVWEBIA.
+    </div>
+  </footer>
+
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
