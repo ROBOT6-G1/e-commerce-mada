@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faq | Apex Vision</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 antialiased">
+
+  <header class="fixed top-0 left-0 right-0 z-50 glass-header border-b border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-indigo-600 flex items-center justify-center font-black text-xl text-white shadow-lg shadow-cyan-500/20">
+          A
+        </div>
+        <span class="font-bold text-xl tracking-tight text-white">Apex<span class="text-cyan-400">Vision</span></span>
+      </a>
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+        <a href="index.html" class="hover:text-white transition">Accueil</a>
+        <a href="apropos.html" class="hover:text-white transition">À Propos</a>
+        <a href="services.html" class="hover:text-white transition">Services</a>
+        <a href="realisations.html" class="hover:text-white transition">Réalisations</a>
+        <a href="faq.html" class="text-cyan-400 hover:text-white transition">FAQ</a>
+        <a href="blog.html" class="hover:text-white transition">Blog</a>
+        <a href="contact.html" class="hover:text-white transition">Contact</a>
+      </nav>
+      <a href="devis.html" class="bg-cyan-500 hover:bg-cyan-400 text-slate-950 px-5 py-2.5 rounded-xl font-bold text-sm transition-all">
+        Demander un Devis
+      </a>
+    </div>
+  </header>
+
+  <section class="pt-36 pb-16 bg-slate-900/40 border-b border-slate-800 text-center">
+    <div class="max-w-7xl mx-auto px-6 space-y-4">
+      <h1 class="text-4xl md:text-5xl font-extrabold text-white">Questions Fréquentes</h1>
+      <p class="text-slate-400 max-w-2xl mx-auto text-lg">
+        Trouvez des réponses rapides aux interrogations les plus courantes concernant nos services.
+      </p>
+    </div>
+  </section>
+
+  <!-- 8. FAQ ACCORDION -->
+  <section class="py-20">
+    <div class="max-w-4xl mx-auto px-6 space-y-4" id="faq-list">
+      <!-- FAQ injected JS -->
+    </div>
+  </section>
+
+  <footer class="bg-slate-900 border-t border-slate-800 py-8 text-center text-slate-500 text-xs">
+    © 2025 ApexVision Madagascar. Tous droits réservés.
+  </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+  <script src="firebase-config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
